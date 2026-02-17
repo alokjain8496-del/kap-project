@@ -6418,5 +6418,36 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
+/* Section Separator */
+.service_separator {
+    width: 60px;
+    height: 3px;
+    background: #f39c12;
+    margin: 15px auto 0;
+}
+
+/* Fix Carousel Overflow */
+.service_active .owl-stage-outer {
+    overflow: hidden;
+}
+
+/* Fix Arrow Overlapping */
+.service_active .owl-nav button {
+    position: absolute;
+    top: 40%;
+    background: #f39c12 !important;
+    color: #fff !important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.service_active .owl-nav .owl-prev {
+    left: -50px;
+}
+
+.service_active .owl-nav .owl-next {
+    right: -50px;
+}
 
 /*# sourceMappingURL=style.css.map */
