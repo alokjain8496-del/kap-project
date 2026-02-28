@@ -6451,3 +6451,41 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.kapex-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.kapex-brand .kapex-brand__icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.kapex-brand .kapex-brand__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.kapex-brand .kapex-brand__text span {
+  display: block;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.kapex-brand.kapex-brand--mobile .kapex-brand__icon {
+  width: 34px;
+  height: 34px;
+}
+
+.kapex-brand.kapex-brand--mobile .kapex-brand__text span {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+}
