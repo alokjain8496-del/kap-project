@@ -6489,3 +6489,29 @@ h6 {
   letter-spacing: 1px;
   color: #fff;
 }
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.footer-brand .footer-brand__icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.footer-brand .footer-brand__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.footer-brand .footer-brand__text span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

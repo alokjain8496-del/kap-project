@@ -231,3 +231,29 @@
         }
     }
 }
+
+.footer-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+    .footer-brand__icon {
+        width: 44px;
+        height: 44px;
+        object-fit: contain;
+    }
+
+    .footer-brand__text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1;
+
+        span {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+    }
+}
